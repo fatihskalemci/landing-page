@@ -1,6 +1,7 @@
 body {
   padding: 0;
   margin: 0;
+  font-family: Helvetica, sans-serif;
 }
 
 .hero {
@@ -90,4 +91,60 @@ button:focus {
 
 #hero-image {
   width: 400px;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 200px;
+}
+
+.information-header {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  margin-bottom: 30px;
+}
+
+.infos {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  margin-bottom: 70px;
+}
+
+div.infos > div {
+  text-align: center;
+  width: 130px;
+}
+
+.infos img {
+  width: 120px;
+  border: solid 3px #3882f6;
+  border-radius: 20px;
+}
+
+.quote-container {
+  background: #e5e7eb;
+  padding: 100px 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: light;
+  font-style: italic;
+  color: #1f2937;
+  margin-bottom: 20px;
+}
+
+.owner {
+  font-size: 18px;
+  font-weight: 500;
+  padding-right: 20px;
+  align-self: flex-end;
 }
